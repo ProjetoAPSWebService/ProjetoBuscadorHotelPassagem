@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Projeto Web Service XML - BUSCADOR DE PASSAGENS</title>
+        <title>Projeto Web Service XML - BUSCADOR DE PASSAGENS - BETA</title>
     </head>
     <body>
         <h1>Hello World!</h1>

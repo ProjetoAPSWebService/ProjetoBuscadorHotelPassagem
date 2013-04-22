@@ -24,11 +24,11 @@
             </div>
 
             <h3>Cadastro Pessoal</h3>
-            <form class="form-horizontal" action="LoginServlet">
+            <form class="form-horizontal" action="LoginServlet" method="post">
                 <div class="control-group">
                     <label class="control-label">Nome</label>
                     <div class="controls">
-                        <input type="text" id="inputNome" placeholder="Nome">
+                        <input type="text" id="inputNome" name="Nome" placeholder="Nome">
                     </div>
                 </div>
                 <div class="control-group">

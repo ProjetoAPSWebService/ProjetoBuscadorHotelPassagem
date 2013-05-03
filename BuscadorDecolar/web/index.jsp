@@ -50,11 +50,8 @@
                     <label class="control-label">Hotel</label>
                     <div class="controls">
                         <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                            <option>Hotel Paraiso</option>
+                             <option>outros</option>
                         </select>
                     </div>
                 </div>
@@ -65,11 +62,8 @@
                     <label class="control-label">Passagem</label>
                     <div class="controls">
                         <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                            <option>Empresa Voo Feliz</option>
+                            <option>outras</option>
                         </select>
                     </div>
                 </div>

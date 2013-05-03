@@ -1,4 +1,4 @@
-package br.com.buscador.core.bean;
+package br.com.buscador.bean;
 
 /**
  *

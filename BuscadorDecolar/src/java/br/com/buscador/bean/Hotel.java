@@ -19,7 +19,7 @@ public class Hotel implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(length = 20)
+    @Column(length = 1000)
     private String nome;
     @Column(length = 20)
     private String cidade;

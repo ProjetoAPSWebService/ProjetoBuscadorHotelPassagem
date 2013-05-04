@@ -4,9 +4,33 @@
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>br.com.buscador.servlet.LoginServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>HotelBusca</servlet-name>
+        <servlet-class>br.com.buscador.servlet.HotelBusca</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HotelCadastraPessoa</servlet-name>
+        <servlet-class>br.com.buscador.servlet.HotelCadastraPessoa</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HotelReserva</servlet-name>
+        <servlet-class>br.com.buscador.servlet.HotelReserva</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HotelBusca</servlet-name>
+        <url-pattern>/HotelBusca</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HotelCadastraPessoa</servlet-name>
+        <url-pattern>/HotelCadastraPessoa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HotelReserva</servlet-name>
+        <url-pattern>/HotelReserva</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

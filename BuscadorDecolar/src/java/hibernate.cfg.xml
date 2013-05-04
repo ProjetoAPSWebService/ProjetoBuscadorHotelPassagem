@@ -8,5 +8,6 @@
     <property name="hibernate.connection.username">root</property>
     <property name="hibernate.connection.password">9911</property>
     <mapping class="br.com.buscador.bean.Hotel"/>
+    <mapping class="br.com.buscador.bean.Pessoa"/>
   </session-factory>
 </hibernate-configuration>

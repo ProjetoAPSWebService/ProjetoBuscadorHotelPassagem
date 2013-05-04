@@ -34,7 +34,7 @@
                 <div class="control-group">
                     <label class="control-label">CPF</label>
                     <div class="controls">
-                        <input type="text" id="inputNome" name="cpf" placeholder="xxx.xxx.xxx-dd">
+                        <input type="text" id="inputCpf" name="cpf" placeholder="xxx.xxx.xxx-dd">
                     </div>
                 </div>
                 <div class="control-group">
@@ -51,7 +51,7 @@
                 </div>
                 <div class="control-group">
                     <div class="controls">
-                        <label class="checkbox"><input type="checkbox"> Aceito os Termos</label>
+                        <label class="checkbox"><input type="checkbox" id="aceito" name="aceito"> Aceito os Termos</label>
                         <button type="submit" class="btn">Cadastrar</button>
                     </div>
                 </div>

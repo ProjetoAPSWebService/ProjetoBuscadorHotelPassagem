@@ -28,13 +28,25 @@
                 <div class="control-group">
                     <label class="control-label">Nome</label>
                     <div class="controls">
-                        <input type="text" id="inputNome" name="Nome" placeholder="Nome">
+                        <input type="text" id="inputNome" name="nome" placeholder="Seu Nome Aqui">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">CPF</label>
+                    <div class="controls">
+                        <input type="text" id="inputNome" name="cpf" placeholder="xxx.xxx.xxx-dd">
                     </div>
                 </div>
                 <div class="control-group">
                     <label class="control-label">Endereço</label>
                     <div class="controls">
-                        <input type="text" id="inputEndereco" placeholder="Endereco">
+                        <input type="text" id="inputEndereco" name="endereco" placeholder="">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Numero</label>
+                    <div class="controls">
+                        <input type="text" id="inputNumero" name="numero" placeholder="">
                     </div>
                 </div>
                 <div class="control-group">
@@ -45,14 +57,19 @@
                 </div>
             </form>
             <h3>Procurar Hotel</h3>
-            <form class="form-horizontal">
+            <form class="form-horizontal" action="LoginServlet" method="post">
                 <div class="control-group">
                     <label class="control-label">Hotel</label>
                     <div class="controls">
                         <select>
                             <option>Hotel Paraiso</option>
-                             <option>outros</option>
+                            <option>outros</option>
                         </select>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls">
+                        <button type="submit" class="btn">Buscar Hotel</button>
                     </div>
                 </div>
             </form>
@@ -65,6 +82,11 @@
                             <option>Empresa Voo Feliz</option>
                             <option>outras</option>
                         </select>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls">
+                        <button type="submit" class="btn">Buscar Passagem Aérea</button>
                     </div>
                 </div>
             </form>

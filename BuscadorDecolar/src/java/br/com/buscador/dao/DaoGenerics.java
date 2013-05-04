@@ -6,8 +6,6 @@ import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.Session;
 
-
-
 public class DaoGenerics<T> implements Dao<T> {
 
     private Session session = null;
@@ -41,7 +39,7 @@ public class DaoGenerics<T> implements Dao<T> {
     }
 
     @SuppressWarnings("unchecked")
-	@Override
+    @Override
     public T findById(int id) {
         open();
         T objeto = null;
